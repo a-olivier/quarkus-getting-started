@@ -12,6 +12,7 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response hello() {
-        return "hello";
+        //usefull comment
+        return "hello world";
     }
 }
